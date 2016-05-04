@@ -1,0 +1,31 @@
+/*!
+ * Custom slide styles.
+ */
+.leftalign {
+  text-align: left;
+}
+
+.rightalign {
+  text-align: right;
+}
+
+.centeralign {
+  text-align: center;
+}
+
+section.who img {
+  width: 25%;
+}
+
+section.who .left {
+  float: left;
+}
+
+section.who .right {
+  float: right;
+}
+
+section.who div.container {
+  width: 70%;
+  padding: 20px;
+}
