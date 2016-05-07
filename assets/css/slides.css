@@ -1,6 +1,19 @@
 /*!
  * Custom slide styles.
  */
+.text {
+  display: block;
+  float: left;
+  margin-top: 14% !important;
+  width: 70%;
+}
+
+.pic {
+  display: block;
+  float: right;
+  width: 30%;
+}
+
 .leftalign {
   text-align: left;
 }
