@@ -1,0 +1,31 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+  &::before {
+    background-image: url("../../assets/img/logo.png");
+    background-position: 0 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 100%;
+    opacity: 0.25;
+    position: absolute;
+    right: -22%;
+    width: 58%;
+  }
+
+  &::after {
+    background-image: url("../../assets/img/prometsource-logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 20px;
+    content: "";
+    display: block;
+    height: 70px;
+    left: 2%;
+    position: absolute;
+    width: 270px;
+  }
+}
